@@ -1,0 +1,10 @@
+<!-- Every Setting's key bindings. The game loads this file by its name: it isn't in the
+     TOC. Their names in the Keybindings list, under AddOns, are in Open.lua. -->
+<Bindings>
+	<Binding name="EVERYSETTING_TOGGLE" header="EVERYSETTING" category="ADDONS">
+		EverySetting_OpenOptions()
+	</Binding>
+	<Binding name="EVERYSETTING_UNDO" category="ADDONS">
+		SlashCmdList.EVERYSETTING("undo")
+	</Binding>
+</Bindings>

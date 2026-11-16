@@ -1,0 +1,33 @@
+## Interface: 16001, 120105
+## Title: Every Setting
+## Notes: Every console variable (CVar) in WoW Forever and retail in one searchable window: view distance, ground clutter, camera distance, loot sparkles and HDR (Forever), with real ranges, undo, FPS before and after, and your values set again at every login.
+## Author: Brad
+## Version: 1.0.0
+## SavedVariables: EverySettingDB
+## SavedVariablesPerCharacter: EverySettingCharDB
+## IconTexture: Interface\AddOns\EverySetting\Media\logo
+## AddonCompartmentFunc: EverySetting_OnAddonCompartmentClick
+## AddonCompartmentFuncOnEnter: EverySetting_OnAddonCompartmentEnter
+## AddonCompartmentFuncOnLeave: EverySetting_OnAddonCompartmentLeave
+## X-Curse-Project-ID: 1804075
+## X-License: MIT
+## X-Website: https://github.com/bstotmeister/everysetting
+
+Locales\enUS.lua
+Locales\deDE.lua
+Locales\esES.lua
+Locales\esMX.lua
+Locales\frFR.lua
+Locales\itIT.lua
+Locales\koKR.lua
+Locales\ptBR.lua
+Locales\ruRU.lua
+Locales\zhCN.lua
+Locales\zhTW.lua
+Core.lua
+Knobs.lua
+Styles.lua
+CVars.lua
+Labels.lua
+Options.lua
+Open.lua

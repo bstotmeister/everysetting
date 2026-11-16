@@ -1,0 +1,71 @@
+name: Bug report
+description: Something in Every Setting isn't working
+labels: [bug, triage]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Every Setting version
+      description: Shown in the addon list or the CurseForge app.
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: client
+    attributes:
+      label: Game client and version
+      placeholder: "WoW Forever 1.60.1"
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      description: Some settings exist on one and not the other, and the engine can keep different values on each.
+      options:
+        - Windows
+        - macOS
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: graphics
+    attributes:
+      label: Graphics API, if it's about graphics
+      description: In the game's options, System > Graphics > Graphics API.
+      placeholder: "DirectX 12"
+  - type: textarea
+    id: cvars
+    attributes:
+      label: Which CVar(s)?
+      description: Hover the setting to see its CVar name.
+      placeholder: "groundEffectDist"
+  - type: textarea
+    id: tooltip
+    attributes:
+      label: The setting's tooltip
+      description: Hover the setting in the window and copy out what its tooltip says, or attach a screenshot. Its last lines say what last changed the setting and where the game saves it.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you expected, and what you saw instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open /every
+        2. Drag "Ground clutter distance" to 300
+        3. ...
+  - type: textarea
+    id: errors
+    attributes:
+      label: Lua errors
+      description: Paste from BugSack, or turn errors on with `/console scriptErrors 1`.
+      render: text
+  - type: textarea
+    id: addons
+    attributes:
+      label: Other addons loaded
+      description: Especially ones that change CVars (Advanced Interface Options, Leatrix Plus...).

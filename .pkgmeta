@@ -1,0 +1,19 @@
+package-as: EverySetting
+
+# The addon lives in EverySetting/; flatten it into the package root.
+move-folders:
+  EverySetting/EverySetting: EverySetting
+
+# Written by scripts/changelog.sh (the tag's PRs) before packaging. It's the release
+# notes on GitHub and the changelog on CurseForge.
+manual-changelog:
+  filename: CHANGELOG.md
+  markup-type: markdown
+
+ignore:
+  - README.md
+  - .luacheckrc
+  - scripts
+  - tests
+  - data
+  - docs
