@@ -4,7 +4,7 @@ Summary: Every console variable (CVar) in WoW Forever and retail in one searchab
 Gallery: the images in docs/screenshots/, a pair taken in the world first: clutter-48 and
          clutter-256, then camera-2 and camera-4, view-1000 and view-10000, then window.jpg,
          cvars, kept, styles, presets, situations, locks, camera, search and export.
-Paste everything below this comment into the description. The README has the full guide.
+Paste everything below this comment into the description. docs/guide.md has the full guide.
 -->
 
 # Every Setting
